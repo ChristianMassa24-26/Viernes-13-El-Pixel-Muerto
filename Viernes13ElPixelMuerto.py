@@ -611,14 +611,15 @@ while running:
         if event.type == pygame.KEYDOWN:
             estado_actual = PANTALLA_MENU
 
-    # Pantalla 4: Reglas del juego
+    # Pantalla 4: Creditos
     elif estado_actual == PANTALLA_CREDITOS:
         rules_text = [
             "Créditos:",
             "",
             "Gráficos: Dídac Perales Cuadros",
             "Código: Christian Massa Aiassa (También Xavi sancho Y ChatGPT)",
-            "Musica y sonidos en próximas actualizaciones)"
+            "Musica Menú: Doom",
+            "Sonidos en próximas actualizaciones"
             ]
         y = 150
         for text in rules_text:
